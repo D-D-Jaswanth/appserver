@@ -5,7 +5,7 @@ const routes = require('./Views/Routes')
 const employeeroutes = require('./Views/EmployeeRoutes')
 
 const app = express()
-const port = process.env.PORT || 5000
+const port = 5000
 
 app.use(cors({ origin: "*" }))
 app.use(express.json())
@@ -22,7 +22,7 @@ app.listen(port, () => {
 
 // Database Connection
     
-mongoose.connect("mongodb+srv://loyolite182725:Jasu%40123@cluster0.s48x17q.mongodb.net/projectmanagementtool/pmt")
+mongoose.connect("mongodb+srv://loyolite182725:Jasu@123@cluster0.s48x17q.mongodb.net/projectmanagementtool/pmt")
 .then(() => {
     console.log('Database is Connected Successfully')
 })
