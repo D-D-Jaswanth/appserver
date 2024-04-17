@@ -26,6 +26,6 @@ mongoose.connect("mongodb+srv://loyolite182725:Jasu%40123@cluster0.s48x17q.mongo
 .then(() => {
     console.log('Database is Connected Successfully')
 })
-.catch(() => {
-    console.log('Error while connecting to the Database')
+.catch((e) => {
+    console.log('Error while connecting to the Database',e)
 })
