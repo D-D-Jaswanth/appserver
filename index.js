@@ -22,7 +22,7 @@ app.listen(port, () => {
 
 // Database Connection
     
-mongoose.connect("mongodb+srv://loyolite182725:Jasu@123@cluster0.s48x17q.mongodb.net/projectmanagementtool/pmt")
+mongoose.connect("mongodb+srv://loyolite182725:Jasu%40123@cluster0.s48x17q.mongodb.net/projectmanagementtool/pmt")
 .then(() => {
     console.log('Database is Connected Successfully')
 })
